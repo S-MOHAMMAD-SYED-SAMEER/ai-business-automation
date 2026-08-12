@@ -21,6 +21,10 @@ build/
 # documents) is NOT covered by this and stays committed.
 sales-recovery-agent/server/data/chroma/
 
+# Generated evaluation run output (JSON per run) — eval/dataset.json (the
+# source dataset) is NOT covered by this and stays committed.
+sales-recovery-agent/server/eval-results/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
