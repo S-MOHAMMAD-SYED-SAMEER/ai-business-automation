@@ -5,13 +5,15 @@ plan and [CLAUDE.md](./CLAUDE.md) for the working rules that govern this repo.
 
 ## Status
 
-Lean portfolio foundation (Task 1) — in progress. Projects 1–3 (Sales-Recovery Chatbot, Inbox-to-CRM
-Agent, Explainable ATS) have not started.
+Lean portfolio foundation (Task 1) — in progress. Project 1 (Sales-Recovery Support Agent) — M1
+skeleton done, see [sales-recovery-agent/README.md](./sales-recovery-agent/README.md). Projects 2–3
+(Inbox-to-CRM Agent, Explainable ATS) have not started.
 
 ## Structure
 
 ```
-portfolio/     React + TypeScript + Tailwind site (Welcome, About, Skills, Projects, Contact)
+portfolio/              React + TypeScript + Tailwind site (Welcome, About, Skills, Projects, Contact)
+sales-recovery-agent/   Project 1 — Sales-Recovery Support Agent (Node + Express + Claude API)
 ```
 
 ## Portfolio — local development
