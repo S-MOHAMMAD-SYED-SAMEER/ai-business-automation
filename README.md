@@ -17,12 +17,14 @@ All three flagship projects are complete.
   execute, with a human approval gate on anything consequential and outbound sending disabled.
   Demo: <https://inbox-crm-agent.onrender.com>. See
   [inbox-crm-agent/README.md](./inbox-crm-agent/README.md).
-- **Project 3 — Explainable ATS: built, not yet deployed.** Ranks candidates against a job spec
-  from evidence quoted out of the CV and verified against it, with deterministic scoring. Runs
-  locally; no hosted demo yet.
+- **Project 3 — Explainable ATS: live.** Ranks candidates against a job spec from evidence quoted
+  out of the CV and verified against it, with deterministic scoring and a recruiter decision
+  recorded on an append-only trail. Demo: <https://explainable-ats.onrender.com>.
 
-Both deployed demos run on free-tier hosting and sleep when idle, so the first request after a
-quiet period is slow.
+All three deployed demos run on free-tier hosting and sleep when idle, so the first request after a
+quiet period is slow. Their access differs and each is labelled accordingly on the portfolio:
+Project 1 is open to anyone, Project 2 serves a read-only view of synthetic data without an account,
+and Project 3 is behind an operator sign-in.
 
 ## Structure
 
