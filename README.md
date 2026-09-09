@@ -23,8 +23,8 @@ All three flagship projects are complete.
 
 All three deployed demos run on free-tier hosting and sleep when idle, so the first request after a
 quiet period is slow. Their access differs and each is labelled accordingly on the portfolio:
-Project 1 is open to anyone, Project 2 serves a read-only view of synthetic data without an account,
-and Project 3 is behind an operator sign-in.
+Project 1 is open to anyone, and Projects 2 and 3 each serve a read-only view of synthetic data
+without an account, asking for a sign-in only to change something.
 
 ## Structure
 
