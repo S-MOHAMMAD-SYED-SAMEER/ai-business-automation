@@ -42,8 +42,29 @@ is what makes the work real engineering experience rather than delegation.
 **No redesign, re-scoping, or expansion of Projects 1–3 before or during the initial build.** If a
 better idea appears mid-build, it goes to the Phase 4 backlog — it is not entertained, prototyped,
 or "quickly added." Do not propose alternative architectures for these three unless Sameer explicitly
-reopens the decision. Once the three are done, **stop adding flagship projects**; priority shifts
-entirely to closing and delivering client work.
+reopens the decision. Once the three are done, the default was to **stop adding flagship projects**
+and shift entirely to closing and delivering client work — Sameer has since explicitly reopened that
+decision for three additional, already-built standalone projects; see "Approved — Flagship Projects
+4–6" below. Beyond those six, the default holds: no further flagship projects without Sameer
+explicitly reopening it again.
+
+## Approved — Flagship Projects 4–6 (Standalone)
+
+**KnowledgeOS, DocIntel and VoiceDesk are approved additional flagship projects for the professional
+portfolio.** Each was built and shipped as its own standalone repository, outside this monorepo, and
+each is complete:
+
+4. **KnowledgeOS** — retrieval-grounded answers over internal documents, with citation validation and
+   honest abstention. `github.com/S-MOHAMMAD-SYED-SAMEER/knowledgeos`.
+5. **DocIntel** — structured extraction from invoices and purchase orders, deterministic validation
+   outside the model, confidence-scored human review. `github.com/S-MOHAMMAD-SYED-SAMEER/docintel`.
+6. **VoiceDesk** — an AI phone receptionist: real-time voice, tool-calling, calendar booking, human
+   escalation. `github.com/S-MOHAMMAD-SYED-SAMEER/voicedesk`.
+
+`portfolio/` (the professional site) may be expanded to showcase all six projects. This does not
+reopen Projects 1–3's own architecture (still locked, above), and it does not broaden the client
+niche or change service positioning — see "Positioning (fixed)" — unless Sameer explicitly decides
+that separately, later.
 
 ## Phase 4 Backlog — NOT NOW
 
