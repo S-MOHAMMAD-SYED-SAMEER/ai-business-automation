@@ -17,14 +17,18 @@ All three flagship projects are complete.
   execute, with a human approval gate on anything consequential and outbound sending disabled.
   Demo: <https://inbox-crm-agent.onrender.com>. See
   [inbox-crm-agent/README.md](./inbox-crm-agent/README.md).
-- **Project 3 — Explainable ATS: live.** Ranks candidates against a job spec from evidence quoted
-  out of the CV and verified against it, with deterministic scoring and a recruiter decision
-  recorded on an append-only trail. Demo: <https://explainable-ats.onrender.com>.
+- **Project 3 — Explainable ATS: implemented; deployment and runtime unverified.** Ranks candidates
+  against a job spec from evidence quoted out of the CV and verified against it, with deterministic
+  scoring and a recruiter decision recorded on an append-only trail. A deployment target exists at
+  <https://explainable-ats.onrender.com>, but it has not been independently confirmed to be live or
+  to be running the current commit — see
+  [explainable-ats/README.md](./explainable-ats/README.md) for the verified pipeline and test status.
 
-All three deployed demos run on free-tier hosting and sleep when idle, so the first request after a
-quiet period is slow. Their access differs and each is labelled accordingly on the portfolio:
-Project 1 is open to anyone, and Projects 2 and 3 each serve a read-only view of synthetic data
-without an account, asking for a sign-in only to change something.
+Project 1 and Project 2's deployed demos run on free-tier hosting and sleep when idle, so the first
+request after a quiet period is slow. Access differs and each is labelled accordingly on the
+portfolio: Project 1 is open to anyone, and Project 2 serves a read-only view of synthetic data
+without an account, asking for a sign-in only to change something. Project 3 is built for the same
+read-only pattern (see above), but its live deployment was not independently confirmed.
 
 ## Structure
 
@@ -55,4 +59,5 @@ npm run dev
   Deployed on Render.
 - **Project 3 (Explainable ATS):** Node 24 native TypeScript + Express 5, SQLite/PostgreSQL behind
   one interface, React + Vite + Tailwind dashboard. The current build reads CVs with a
-  deterministic offline stand-in rather than a live model. Not yet deployed.
+  deterministic offline stand-in rather than a live model. Deployment and runtime unverified (see
+  Status above).
